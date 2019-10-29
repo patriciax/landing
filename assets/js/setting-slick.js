@@ -37,10 +37,12 @@ $('.main-banner__content').slick({
 
 $('.main-client__content').slick({
   infinite: true,
+  autoplaySpeed: 1000,
   slidesToShow: 5,
   slidesToScroll: 4,
-  dots: true,
-  arrows: true,
+  dots: false,
+  arrows: false,
+  autoplay:true,
   responsive: [{
       breakpoint: 1200,
       settings: {
