@@ -1,0 +1,147 @@
+@media (min-width: 0) and (max-width: 767px) {
+  .navbar .container {
+    padding: 0px 20px;
+  }
+
+  .navbar-brand img {
+    width: 60%;
+  }
+
+  .navbar .telephone,
+  .navbar .contact {
+    display: none;
+  }
+
+  .main-banner .mask .main-banner__text .main-banner__title p {
+    font-size: 2rem;
+  }
+
+  .main-banner .mask .main-banner__text {
+    width: auto;
+    left: 3%;
+  }
+
+  .h2,
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .service {
+    margin-bottom: 50px;
+  }
+
+  .masonry-with-columns .service:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .masonry-with-columns .service:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .main-promo__grid {
+    display: inline;
+  }
+
+  .main-promo__content__body {
+    height: 380px;
+  }
+
+  .main-promo__content__body span {
+    padding-left: 30px;
+  }
+
+  .main-promo__content .btn-promo {
+    width: -webkit-fill-available;
+  }
+
+  .masonry-with-columns {
+    display: initial;
+  }
+
+  .main-promo__content .main-promo__body {
+    margin-bottom: 50px;
+  }
+
+  .main-horario__content {
+    display: inline;
+  }
+
+  .main-footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .main-footer__content-contact, .main-footer__dates {
+    align-items: center;
+  }
+
+  .main-footer__copy {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service {
+    margin-bottom: 50px;
+  }
+
+  .masonry-with-columns .service:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .masonry-with-columns .service:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .main-promo__grid {
+    display: inline;
+  }
+
+  .main-promo__content__body span {
+    padding-left: 30px;
+  }
+
+  .main-promo__content .btn-promo {
+    width: -webkit-fill-available;
+  }
+
+  .masonry-with-columns {
+    display: initial;
+  }
+
+  .main-promo__content .main-promo__body {
+    margin-bottom: 50px;
+  }
+
+  .main-horario__content .h2,
+  .main-horario__content h2 {
+    font-size: 1.5rem;
+  }
+
+  .main-horario__content p {
+    font-size: 1rem;
+  }
+
+  .main-footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .main-footer__content-contact, .main-footer__dates {
+    align-items: center;
+  }
+
+  .main-footer__copy {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar .telephone {
+    display: none;
+  }
+
+  .navbar .container {
+    padding: 0px 50px;
+  }
+}
